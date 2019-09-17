@@ -13,7 +13,7 @@ describe("routes : static", () => {
       // Send GET request to the base URL
       request.get(base, (err, res, body) => {
         expect(res.statusCode).toBe(200);
-	expect(body).toContain("Welcome to Blocipedia-node");
+        expect(body).toContain("Welcome to Blocipedia-node");
 
         // done method lets Jasmine know test is completed
         done();
