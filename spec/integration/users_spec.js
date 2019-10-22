@@ -41,6 +41,7 @@ describe("routes : users", () => {
           username: "randomname",
           email: "user@example.com",
           password: "12345678",
+          passwordConfirmation: "12345678"
         }
       }
 
